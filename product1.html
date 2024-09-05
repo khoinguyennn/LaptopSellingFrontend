@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>NPN Laptop</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <section id="header">
+        <a href="#" class="logo"><i class="fa-solid fa-laptop"></i>&nbsp;<font color="#088178">NPN</font> Laptop</a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a class="active" href="sanpham.html">Sản phẩm</a></li>
+                <li><a href="tintuc.html">Tin tức</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"> </i>
+        </div>
+    </section>
+
+    <!-- Product details-->
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/products/sp1.jpg" width="100%" id="MainImg">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/products/sp1-1.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/sp1-2.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/sp1-3.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/sp1-4.jpg" width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+    <div class="single-pro-details">
+        <h6>Trang chủ / Laptop</h6>
+        <h4>Laptop Asus BR1100F</h4>
+        <select onchange="return slversion();" id="versionSelect">
+            <option value="">Chọn phiên bản</option>
+            <option value="ch1">
+                Pentium N6000 - 8G/128GB
+            </option>
+            <option value="ch2">
+                Pentium N4500 4GB/128GB
+            </option>
+        </select>
+        <input type="number" value="1">
+            <button class="normal">Thêm Vào Giỏ Hàng</button>
+            <h2 id="price">Giá: 10.290.000đ</h2>
+            <h4>Thông tin chi tiết sản phẩm</h4>
+            <span>
+                Loại CPU: Intel Celeron N4500<br>
+                Loại card đồ họa: Intel UHD Graphics<br>
+                Dung lượng RAM: 4GB<br>
+                Loại RAM: DDR4<br>
+                Ổ cứng: 128G eMMC<br>
+                Kích thước màn hình: 11.6 inches<br>
+                Pin: 42WHrs, 3S1P, 3-cell Li-ion<br>
+            </span>
+    </div>
+    </section>
+        
+        <!-- New Product -->
+        <section id="product1" class="section-p1">
+            <h2>Hàng mới về</h2>
+            <p>Bộ sưu tập những sản phẩm nổi bậc</p> 
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/sp5.jpg" alt="">
+                    <div class="des">
+                        <h5>Lenovo ThinkBook 14s G2 ITL i5 1135G7</h5>
+                        <span>
+                            CPU: i5 1135G7 2.4GHz<br>
+                            RAM: 8 GB DDR4 (Onboard) 4266 MHz<br>
+                            Ổ cứng: 512 GB SSD NVMe PCIe<br>
+                            Màn hình: 14" Full HD (1920 x 1080)<br>
+                            Card màn hình: Card tích hợp Intel Iris Xe
+                        </span>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Giá: 16.990.000đ</h4>
+    .                </div> 
+                    <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                </div>
+    
+                <div class="pro">
+                    <img src="img/products/sp6.jpg" alt="">
+                    <div class="des">
+                        <h5>MacBook Air M1 13" (8GB/256GB)</h5>
+                        <span>
+                            CPU: Apple M1 <br>
+                            RAM: 8GB <br>
+                            Độ phân giải: 2560x1600<br>
+                            Ổ cứng: SSD 256 GB <br>
+                            Kích thước: Dài 304.1 mm - Rộng 212.4 mm - Dày 4.1 mm đến 16.1 mm<br>
+                            Trọng lượng: 1.29 kg
+                        </span>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Giá: 27.990.000đ</h4>
+                    </div> 
+                    <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                </div>
+    
+                <div class="pro">
+                    <img src="img/products/sp7.jpg" alt="">
+                    <div class="des">
+                        <h5>MacBook Air M2 13.6" (8GB/512GB)</h5>
+                        <span>
+                            CPU: Apple M2
+                            RAM: 8GB <br>
+                            Ổ cứng: SSD 512GB
+                            Độ phân giải: 2560x1664 <br>
+                            Kết nối không dây: Bluetooth 5.0, Wi-Fi 6 (802.11ax) <br>
+                            Kích thước: 215
+                        </span>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Giá: 36.990.000đ</h4>
+                    </div> 
+                    <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                </div>
+    
+                <div class="pro">
+                    <img src="img/products/sp8.jpg" alt="">
+                    <div class="des">
+                        <h5>Laptop Acer Gaming Aspire 5 A515-58GM-53PZ i5</h5>
+                        <span>
+                            Màn hình: 15.6 inch<br>
+                            CPU: Intel, Core i5, 13420H<br>
+                            RAM: 8 GB, DDR4<br>
+                            Ổ cứng: SSD 512 GB<br>
+                            Đồ họa: RTX 2050 4GB GDDR6<br>   
+                            Trọng lượng: 1.7 kg
+                        </span>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Giá: 16.490.000đ</h4>
+                    </div> 
+                    <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                </div>
+    
+    
+            </div>
+        </section>
+
+    <!-- New letter -->
+    <section id="newletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Đăng Ký Nhận Bản Tin</h4>
+            <p>Nhận thông tin cập nhật qua email về cửa hàng mới nhất của chúng tôi và <span>các ưu đãi đặc biệt</span></span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Email của bạn" name="txtMail">
+                <button class="normal">Đăng ký</button>
+            </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer id="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" width="90" height="90">
+            <h4>Thông tin liên hệ</h4>
+            <p><strong>Địa chỉ: </strong>Vietnam, Tra Vinh, Phuong 5</p>
+            <p><strong>Số điện thoại: </strong>+84987769860</p>
+            <p><strong>Giờ: </strong> 09:00 - 16:00, Thứ hai - Thứ bảy</p>
+            <div class="follow">
+                <h4>Theo chúng tôi</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Liên hệ</h4>
+            <a href="#">Về chúng tôi</a>
+            <a href="#">Thông tin giao hàng</a>
+            <a href="#">Chính sách bảo mật</a>
+            <a href="#">Điều khoản & Điều kiện</a>
+            <a href="#">Liên hệ chúng tôi</a>
+        </div>
+
+        <div class="col">
+            <h4>Tài khoản của tôi</h4>
+            <a href="#">Đăng nhập</a>
+            <a href="#">Xem giỏ hàng</a>
+            <a href="#">Sản phẩm yêu thích</a>
+            <a href="#">Theo dõi đơn hàng của tôi</a>
+            <a href="#">Hỗ trợ</a>
+        </div>
+
+        <div class="col install">
+            <h4>Tải Ứng Dụng</h4>
+            <p>Từ App Store hoặc Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg">
+                <img src="img/pay/play.jpg">
+            </div>
+            <p>Cổng thanh toán an toàn</p>
+            <img src="img/pay/pay.png">
+        </div>
+        <div class="copyright">
+            <p>© 2024, NPN Laptop</p>
+        </div>
+    </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+        
+        smallimg[0].onclick = function() {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function() {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function() {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function() {
+            MainImg.src = smallimg[3].src;
+        }
+
+        function slversion() {
+            var selectElement = document.getElementById('versionSelect');
+            var selectedValue = selectElement.value;
+            var priceElement = document.getElementById('price');
+
+            if (selectedValue === "ch1") {
+                priceElement.innerHTML = "Giá: 5.990.000đ";
+            } else if (selectedValue === "ch2") {
+                priceElement.innerHTML = "Giá: 5.690.000đ";
+            } else {
+                priceElement.innerHTML = "Giá: 10.290.000đ";
+            }
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
